@@ -12,7 +12,7 @@ router.post("/add", auth, async (req, res) => {
     res.json({ msg: "Student added successfully" });
   } catch (err) {
     res.status(400).json({ msg: "Error adding student" });
-  }
+  } 
 });
 
 /* GET ALL STUDENTS */
